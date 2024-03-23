@@ -24,9 +24,9 @@ const startChangeColor=function(){
 }
 const stopChangeColor=function(){
 clearInterval(intervalId);
-intervalId=null;//empty interval id safe coding practice to claer memory
+intervalId=null;//empty interval id safe coding practice to claer memory,space save
 }
 
-start.addEventListener("click",startChangeColor)
+start.addEventListener("click",startChangeColor);
 
-stop.addEventListener("click",stopChangeColor)
+stop.addEventListener("click",stopChangeColor);
